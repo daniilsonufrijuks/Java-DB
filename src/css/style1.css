@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.reg-btn {
+    display: block;
+    width: calc(100% - 22px); /* Adjusted width */
+    padding: 10px; /* Adjusted padding */
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px; /* Adjusted font size */
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.reg-btn:hover {
+    background-color: #45a049;
+}
